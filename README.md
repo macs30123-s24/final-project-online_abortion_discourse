@@ -187,3 +187,9 @@ Throughout this project, I have become increasingly comfortable with PySpark, an
 - Watchful1. (n.d.). PushshiftDumps/scripts/single_file.py at master · Watchful1/PushshiftDumps. *GitHub*. [https://github.com/Watchful1/PushshiftDumps/blob/master/scripts/single_file.py](https://github.com/Watchful1/PushshiftDumps/blob/master/scripts/single_file.py)
 
 
+**AI Narrative**
+- [Asking how to make LDA more efficient](https://chatgpt.com/share/0dccc45f-afc9-490b-ab8e-75cd34a088c8)
+- [Time series plot help](https://chatgpt.com/share/f1c73b56-07d3-4855-b42b-d045a3ec724b)
+- [Livy server help](https://chatgpt.com/share/eec2f8bc-105c-4a13-b9eb-2c637cf79511)
+- [UDF/parallelization help](https://chatgpt.com/share/a312ca01-99f9-4a9d-90ff-1af52cd178fe)
+- [Beginning to work with ZST in PySpark](https://chatgpt.com/share/3336cb32-3990-4b85-9a4c-6d9da208fe76)
