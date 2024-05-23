@@ -165,10 +165,37 @@ Further, although LDA offered a general overview of themes, the model, with its 
 
 Lastly, although I conducted a thorough cleaning of both submissions and comments, the volume (of comments in particular) was far too large to ensure complete accuracy. Irrelevant data may be still present within the corpus.
 
-## Conclusions 
+## Conclusion
 Overall, the project showcases the power and effectiveness of using PySpark for large-scale data analysis. As mentioned several times, the majority of this project would have not been possible without the capabilities of parallel processing and distribution granted by PySpark and the features within it. 
 
 Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of both these subreddits. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
+
+## Navigating this Repo
+
+### Code Folder:
+
+- **zst_submission_extract.ipynb**: Code for extracting submissions from a ZST file.
+  
+- **fix_csv.ipynb**: Code for fixing CSV files to accurately transfer to PySpark DataFrame.
+  
+- **eda_lda_posts.ipynb**: Cleaning, EDA, and NLP of submission data.
+  
+- **fixed_wordclouds.ipynb**: Word clouds of submission titles.
+  
+- **zst_comment_extract.ipynb**: Code for extracting comments from a 2GB ZST file.
+  
+- **EDA_comments.ipynb**: Cleaning and EDA of extracted comments.
+  
+- **NLP_comments_clean.ipynb**: Analysis and NLP of comments.
+
+### Emr_Scripts Folder:
+- **emrlaunch.py**: Used to launch cluster, install more packages
+- **setup.sh**: Used to setup necessary packages on the cluster (code from Spark NLP - Installation, 2023)
+- **sparknlp-config.json**: Used to configure NLP (code from Spark NLP - Installation, 2023)
+
+### visualizations Folder:
+- Contains PNG images of plots extracted from notebooks for this readme.
+
 
 ## Work and Resources Cited
 
