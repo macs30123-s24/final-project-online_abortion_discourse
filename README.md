@@ -4,7 +4,7 @@
 
 Abortion remains a contentious and deeply entrenched debate in America and American politics. Despite its apparent legal solidity following the landmark case **Roe v. Wade** in 1973, which guaranteed the constitutional right to privacy – including the right to an abortion – this framework was dramatically altered in the unprecedented ruling of **Dobbs v. Jackson Women’s Health Organization** in 2022. This decision effectively overturned Roe v. Wade and returned the power of regulating abortion back to the states.
 
-Following the Dobbs ruling, the legality of abortion in America has become fragmented, with over fourteen states enacting all-out abortion bans and an additional seven implementing laws severely restricting abortion ([Where Can I Get an Abortion?](#), n.d.). Furthermore, the issue has emerged as a focal point in the upcoming 2024 election, where abortion is expected to be a battleground issue. In over eleven states, voters will weigh in on addressing measures surrounding abortion (Mulvihill and Kruesi, 2024). Against this unparalleled legal upheaval, political turmoil, and the continued erosion of established rights, research into the discourse surrounding the topic becomes even more imperative.
+Following the Dobbs ruling, the legality of abortion in America has become fragmented, with over fourteen states enacting all-out abortion bans and an additional seven implementing laws severely restricting abortion ([State Bans on Abortion Throughout Pregnancy, 2024](https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans)). Furthermore, the issue has emerged as a focal point in the upcoming 2024 election, where abortion is expected to be a battleground issue. In over eleven states, voters will weigh in on addressing measures surrounding abortion ([Mulvihill and Kruesi, 2024](https://apnews.com/article/abortion-ballot-amendment-ban-protection-states-2024-052ff9846f8416efb725240af22b92ec)). Against this unparalleled legal upheaval, political turmoil, and the continued erosion of established rights, research into the discourse surrounding the topic becomes even more imperative.
 
 
 ## Objective
@@ -170,4 +170,28 @@ Overall, the project showcases the power and effectiveness of using PySpark for 
 
 Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of both these subreddits. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
 
+## Work and Resources Cited
 
+- JohnSnowLabs. (n.d.). Keyword_Extraction_YAKE.ipynb. Retrieved from [https://github.com/JohnSnowLabs/spark-nlp/blob/master/examples/python/annotation/text/english/keyword-extraction/Keyword_Extraction_YAKE.ipynb](https://github.com/JohnSnowLabs/spark-nlp/blob/master/examples/python/annotation/text/english/keyword-extraction/Keyword_Extraction_YAKE.ipynb)
+
+- L, S. (2024, February 18). Tutorial: Feature engineering for Time series Forecasting in PySpark. *Medium*. [https://medium.com/@soyoungluna/tutorial-feature-engineering-for-weekly-time-series-forecasting-in-pyspark-b207c41869f4](https://medium.com/@soyoungluna/tutorial-feature-engineering-for-weekly-time-series-forecasting-in-pyspark-b207c41869f4)
+
+- Mulvihill, G., & Kruesi, K. (2024, April 10). Which states could have abortion on the ballot in 2024? | AP News. *AP News*. [https://apnews.com/article/abortion-ballot-amendment-ban-protection-states-2024-052ff9846f8416efb725240af22b92ec](https://apnews.com/article/abortion-ballot-amendment-ban-protection-states-2024-052ff9846f8416efb725240af22b92ec)
+
+- Obedkova, M. (2021, December 14). Topic Modelling with PySpark and Spark NLP - TrustYou Engineering - *Medium*. [https://medium.com/trustyou-engineering/topic-modelling-with-pyspark-and-spark-nlp-a99d063f1a6e](https://medium.com/trustyou-engineering/topic-modelling-with-pyspark-and-spark-nlp-a99d063f1a6e)
+
+- State bans on abortion throughout pregnancy. (2024, May 2). *Guttmacher Institute*. [https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans](https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans)
+
+- Spark NLP - installation. (2023, May 10). https://sparknlp.org/docs/en/install
+    
+- Watchful1. (n.d). Subreddit comments/submissions 2005-06 to 2023-12. [https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10](https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10)
+
+- Watchful1. (n.d.). PushshiftDumps/scripts/single_file.py at master · Watchful1/PushshiftDumps. *GitHub*. [https://github.com/Watchful1/PushshiftDumps/blob/master/scripts/single_file.py](https://github.com/Watchful1/PushshiftDumps/blob/master/scripts/single_file.py)
+
+
+**AI Narrative**
+- [Asking how to make LDA more efficient](https://chatgpt.com/share/0dccc45f-afc9-490b-ab8e-75cd34a088c8)
+- [Time series plot help](https://chatgpt.com/share/f1c73b56-07d3-4855-b42b-d045a3ec724b)
+- [Livy server help](https://chatgpt.com/share/eec2f8bc-105c-4a13-b9eb-2c637cf79511)
+- [UDF/parallelization help](https://chatgpt.com/share/a312ca01-99f9-4a9d-90ff-1af52cd178fe)
+- [Beginning to work with ZST in PySpark](https://chatgpt.com/share/3336cb32-3990-4b85-9a4c-6d9da208fe76)
