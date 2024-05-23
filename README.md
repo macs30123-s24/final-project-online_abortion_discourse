@@ -134,6 +134,8 @@ I also performed Latent Dirichlet Allocation on the comment corpus. PySpark was 
 
 I also took the Latent Dirichlet Allocation a step further, and analyzed the activity of each topic over time, once again using the power of PySpark's distributed processing.
 
+Topic 11 once again suggests a shift away from an overwhelming pro-life rhetoric, as observed in the earlier analysis.
+
 **Topic 2 Keywords: states, state, law, right, government, laws, court, roe, rights, issue**
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic_2.png" alt="Temporal Analysis (Topic 2)" width="700" />
