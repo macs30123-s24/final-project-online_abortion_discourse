@@ -115,7 +115,7 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic_2.png" alt="Temporal Analysis (Topic 2)" width="700" />
 
-**Topic 3 Keywords: read, bill, link, ban, article, support, first, even, didnt, said**
+**Topic 3 Keywords: read, bill, link\*, ban, article, support, first, even, didnt, said**
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic3.png" alt="Temporal Analysis (Topic 3)" width="700" />
 
@@ -126,4 +126,6 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 **Topic 11 Keywords: life, human, murder, person, argument, fetus, right, people, killing, believe**
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic11.png" alt="Temporal Analysis (Topic 11)" width="700" />
+
+*Note: The term "link" was used during regex to replace links being shared. This indicates that many links are being shared within this topic.
 
