@@ -109,3 +109,8 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 
 </font>
 
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic_2.png" alt="Temporal Analysis (Topic 2)" width="700" />
+**Topic 2 Keywords: states, state, law, right, government, laws, court, roe, rights, issue**
+
+
+https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic_2.png
