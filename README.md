@@ -35,7 +35,7 @@ Because the submission dataset was a relatively modest size (64 MB ZST, 1 millio
 
 After extracting the relevant posts from the dataset, I amassed a total of 10,372 submission posts. Despite the relatively small size, I still utilized the power of PySpark to perform data cleaning, Latent Dirichlet Allocation (LDA), bigram extraction, the creation of word clouds, and ultimately, to gather the ‘IDs’ of each submission. These ‘IDs’ played a crucial role in ensuring the accuracy of the extraction of corresponding comments.
 
-# Topics Extracted from LDA of Post Titles:
+#### Topics Extracted from LDA of Post Titles:
 
 | Topic | Words |
 |-------|---------------------------------------------------------------------------------------|
