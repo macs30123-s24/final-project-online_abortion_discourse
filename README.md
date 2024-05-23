@@ -83,22 +83,25 @@ Similar to the submission data, I performed a thorough cleaning of the dataset, 
 
 The utilization of PySpark was crucial for both the extraction and the cleaning process due to the large dataset size, as it allowed for efficient parallel processing and handling of the data. The complexity and scale of the task underscored the importance of PySpark in achieving timely and accurate results, which would have been challenging, if not impossible (especially with the extraction) with traditional methods.
 
-After cleaning, I again used PySpark to conduct a data analysis. For each Machine Learning/NLP task, I utilized a pipeline to take advantage of scalability between the two datasets, work distribution, and consistency. 
+After cleaning, I again used PySpark to conduct a data analysis. For each Machine Learning/NLP task, I utilized a pipeline to take advantage of scalability between the two datasets, work distribution, and consistency. A simplified example of one of my ML Pipelines:
 
-A simplified example of one of my ML Pipelines:
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/pipelineexample.jpg" alt="Pipeline Example" width="500" />
 
-
-This time, I used Yake Keyword Extraction as well as continued my use of LDA and Bigram. Additionally, I performed a temporal topic analysis of the topics over time.
+For an analysis of the comments, I used Yake Keyword Extraction and continued the use of both LDA and Bigram. Additionally, I performed a temporal topic analysis of the topic specific activity over time.
 
 #### Yake Keyword Extraction 
 
-I used Yake Keyword Extraction on my corpus to identify the keywords from each comment and to begin the see the themes within the entirety of the dataset.
-<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="700" />
+<div style="text-align: center;">
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="700" />
+</div>
 
-<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.41%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="800" />
+<div style="text-align: center;">
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.41%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="800" />
+</div>
 
 #### Bigram Analysis
+
+To examine potential shifts in framing, topics, or language surrounding abortion, I analyzed the top bigrams by year. When setting the minimum occurrence to 15, I found that there were 12,633 unique bigrams within the dataset. While the predominant bigrams remained relatively stable, the order in which they appeared varied, suggesting a unique emphasis on different aspects of discourse. Notably, the largest shift seems to be in 2022, where the bigrams appear to be focusing on the reasons someone might want (or need) an abortion, rather than skewing strictly pro-life as observed earlier. This aligns with what was seen in the top comment of 2022 in the keyword extraction, possibly suggestingng a shift in discourse or attitudes.
 
 <font size="2">
   
