@@ -151,5 +151,6 @@ I also took the Latent Dirichlet Allocation a step further, and analyzed the act
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic11.png" alt="Temporal Analysis (Topic 11)" width="700" />
 
 *Note: The term "link" was used during regex to replace links being shared. This indicates that many links are being shared within this topic.
+** The complete visualizations for every analysis/year are available within the PySpark notebooks, I just chose the most interesting or representative ones to display here
 
 
