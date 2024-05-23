@@ -104,7 +104,7 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 | abortion clinics     | human beings         | death penalty       | dont think          | federal government |
 | right life           | roe wade             | unborn child        | supreme court       | get abortion        |
 | gay marriage         | planned parenthood   | catholic church     | pro life            | sounds like         |
-| late term            | pro life            | life begins         | get pregnant        | get pregnant         |
+| late term            | late term            | pro life         | life begins        | get pregnant         |
 
 
 </font>
