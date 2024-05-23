@@ -4,7 +4,7 @@
 
 Abortion remains a contentious and deeply entrenched debate in America and American politics. Despite its apparent legal solidity following the landmark case **Roe v. Wade** in 1973, which guaranteed the constitutional right to privacy – including the right to an abortion – this framework was dramatically altered in the unprecedented ruling of **Dobbs v. Jackson Women’s Health Organization** in 2022. This decision effectively overturned Roe v. Wade and returned the power of regulating abortion back to the states.
 
-Following the Dobbs ruling, the legality of abortion in America has become fragmented, with over fourteen states enacting all-out abortion bans and an additional seven implementing laws severely restricting abortion ([Where Can I Get an Abortion?](#), n.d.). Furthermore, the issue has emerged as a focal point in the upcoming 2024 election, where abortion is expected to be a battleground issue. In over eleven states, voters will weigh in on addressing measures surrounding abortion (Mulvihill and Kruesi, 2024). Against this unparalleled legal upheaval, political turmoil, and continued erosion of established rights, research into the discourse surrounding the topic becomes even more imperative.
+Following the Dobbs ruling, the legality of abortion in America has become fragmented, with over fourteen states enacting all-out abortion bans and an additional seven implementing laws severely restricting abortion ([Where Can I Get an Abortion?](#), n.d.). Furthermore, the issue has emerged as a focal point in the upcoming 2024 election, where abortion is expected to be a battleground issue. In over eleven states, voters will weigh in on addressing measures surrounding abortion (Mulvihill and Kruesi, 2024). Against this unparalleled legal upheaval, political turmoil, and the continued erosion of established rights, research into the discourse surrounding the topic becomes even more imperative.
 
 
 ## Objective
@@ -31,7 +31,7 @@ Following changes to the Reddit API in 2023, and the subsequent deprecation/inac
 
 Because the submission dataset was a relatively modest size (64 MB ZST, 1 million data points), I was able to use Google Colab to extract any submission that had the word ‘abortion’ in the title. My decision to use Colab for the smaller of the two files mainly stemmed from the fact that I lacked any prior experience working with ZST files. I thought that it would be better to familiarize myself with what the dataset contained before jumping into PySpark. However, I learned later that the two environments were significantly different, and that this approach ultimately presented more challenges than necessary.
 
-<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/posts_about_abortion.png" alt="Percentage of Posts With Abortion in The Title" width="700" />
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/posts_about_abortion.png" alt="Percentage of Posts With Abortion in The Title" width="600" />
 
 After extracting the relevant posts from the dataset, I amassed a total of 10,372 submission posts. Despite the relatively small size, I still utilized the power of PySpark to perform data cleaning, Latent Dirichlet Allocation (LDA), bigram extraction, the creation of word clouds, and ultimately, to gather the ‘IDs’ of each submission. These ‘IDs’ played a crucial role in ensuring the accuracy of the extraction of corresponding comments.
 
@@ -52,24 +52,24 @@ After extracting the relevant posts from the dataset, I amassed a total of 10,37
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2013.png" alt="Word Cloud 2013" width="400"/>
-    <p>2013</p>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2013.png" alt="Word Cloud 2013" width="500"/>
+
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2016.png" alt="Word Cloud 2016" width="400"/>
-    <p>2016</p>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2016.png" alt="Word Cloud 2016" width="500"/>
+
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2018.png" alt="Word Cloud 2018" width="400"/>
-    <p>2018</p>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2018.png" alt="Word Cloud 2018" width="500"/>
+
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2020.png" alt="Word Cloud 2020" width="400"/>
-    <p>2020</p>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2020.png" alt="Word Cloud 2020" width="500"/>
+
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2022.png" alt="Word Cloud 2022" width="400"/>
-    <p>2022</p>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2022.png" alt="Word Cloud 2022" width="500"/>
+
   </div>
 </div>
 
@@ -87,14 +87,14 @@ After cleaning, I again used PySpark to conduct a data analysis. For each Machin
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/pipelineexample.jpg" alt="Pipeline Example" width="500" />
 
-For an analysis of the comments, I used Yake Keyword Extraction and continued the use of both LDA and Bigram. Additionally, I performed a temporal topic analysis of the topic specific activity over time.
+For an analysis of the comments, I used Yake Keyword Extraction and continued the use of both LDA and Bigram. Additionally, I performed a temporal topic analysis of the topic-specific activity over time.
 
 #### Yake Keyword Extraction 
 
 I used Yake Keyword Extraction to discern the common messages or themes throughout the corpus. Interestingly, there was a shift in 2022 where the majority of top comments were pro-choice adjacent comments. This was a stark contrast to the previous years.
 
 <div style="text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="700" />
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="800" />
 </div>
 
 <div style="text-align: center;">
@@ -103,7 +103,7 @@ I used Yake Keyword Extraction to discern the common messages or themes througho
 
 #### Bigram Analysis
 
-To examine potential shifts in framing, topics, or language surrounding abortion, I analyzed the top bigrams by year. When setting the minimum occurrence to 15, I found that there were 12,633 unique bigrams within the dataset. While the predominant bigrams remained relatively stable, the order in which they appeared varied, suggesting a unique emphasis on different aspects of discourse. Notably, the largest shift seems to be in 2022, where the bigrams appear to be focusing on the reasons someone might want (or need) an abortion, rather than skewing strictly pro-life as observed earlier. This aligns with what was seen in the top comment of 2022 in the keyword extraction, possibly suggestingng a shift in discourse or attitudes.
+To examine potential shifts in framing, topics, or language surrounding abortion, I analyzed the top bigrams by year. When setting the minimum occurrence to 15, I found that there were 12,633 unique bigrams within the dataset. While the predominant bigrams remained relatively stable, the order in which they appeared varied, suggesting a unique emphasis on different aspects of discourse. Notably, the largest shift seems to be in 2022, where the bigrams appear to be focusing on the reasons someone might want (or need) an abortion, rather than skewing strictly pro-life as observed earlier. This aligns with what was seen in the top comment of 2022 in the keyword extraction, possibly suggesting a shift in discourse or attitudes.
 
 <font size="2">
   
