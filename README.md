@@ -83,13 +83,22 @@ Similar to the submission data, I performed a thorough cleaning of the dataset, 
 
 The utilization of PySpark was crucial for both the extraction and the cleaning process due to the large dataset size, as it allowed for efficient parallel processing and handling of the data. The complexity and scale of the task underscored the importance of PySpark in achieving timely and accurate results, which would have been challenging, if not impossible (especially with the extraction) with traditional methods.
 
-Following the cleaning process, I again utilized PySpark to conduct a data analysis. This time, I used Yake Keyword Extraction as well as continued my use of LDA and Bigram. Additionally, I performed a temporal topic analysis of the topics over time.
+After cleaning, I again used PySpark to conduct a data analysis. For each Machine Learning/NLP task, I utilized a pipeline to take advantage of scalability between the two datasets, work distribution, and consistency. 
 
+A simplified example of one of my ML Pipelines:
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/pipelineexample.jpg" alt="Pipeline Example" width="500" />
+
+
+This time, I used Yake Keyword Extraction as well as continued my use of LDA and Bigram. Additionally, I performed a temporal topic analysis of the topics over time.
+
+#### Yake Keyword Extraction 
+
+I used Yake Keyword Extraction on my corpus to identify the keywords from each comment and to begin the see the themes within the entirety of the dataset.
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="700" />
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.41%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="800" />
 
-## Top Bigrams by Year
+#### Bigram Analysis
 
 <font size="2">
   
@@ -109,7 +118,7 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 
 </font>
 
-### Temporal Analysis
+#### Temporal Analysis
 
 **Topic 2 Keywords: states, state, law, right, government, laws, court, roe, rights, issue**
 
