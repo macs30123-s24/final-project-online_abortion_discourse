@@ -31,9 +31,26 @@ Following changes to the Reddit API in 2023, and the subsequent deprecation/inac
 
 Because the submission dataset was a relatively modest size (64 MB ZST, 1 million data points), I was able to use Google Colab to extract any submission that had the word ‘abortion’ in the title. My decision to use Colab for the smaller of the two files mainly stemmed from the fact that I lacked any prior experience working with ZST files. I thought that it would be better to familiarize myself with what the dataset contained before jumping into PySpark. However, I learned later that the two environments were significantly different, and that this approach ultimately presented more challenges than necessary.
 
-*pic of percentage of posts with abortion in the title*
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/posts_about_abortion.png" alt="Percentage of Posts With Abortion in The Title" width="700" />
 
 After extracting the relevant posts from the dataset, I amassed a total of 10,372 submission posts. Despite the relatively small size, I still utilized the power of PySpark to perform data cleaning, Latent Dirichlet Allocation (LDA), bigram extraction, the creation of word clouds, and ultimately, to gather the ‘IDs’ of each submission. These ‘IDs’ played a crucial role in ensuring the accuracy of the extraction of corresponding comments.
+
+#### Topics Extracted from LDA of Post Titles:
+
+| Topic | Words |
+|-------|---------------------------------------------------------------------------------------|
+| 0     | [biden, proabortion, new, trump, catholic, joe, news, banned, administration, campaign] |
+| 1     | [murder, rape, child, argument, pro, choice, change, prochoice, ny, good]               |
+| 2     | [bill, support, birth, democrats, want, americans, house, vote, democrat, poll]         |
+| 3     | [babies, people, killing, roe, like, lateterm, left, one, think, baby]                  |
+| 4     | [black, die, baby, uk, business, syndrome, based, west, moral, race]                    |
+| 5     | [planned, parenthood, women, laws, children, pregnant, clinics, governor, get, babies]  |
+| 6     | [woman, democrats, kill, pay, travel, virginia, bill, kids, funding, story]             |
+| 7     | [law, court, ban, texas, supreme, bill, state, new, states, gov]                        |
+| 8     | [life, us, dems, gets, term, late, american, fight, obamacare, amendment]               |
+| 9     | [prolife, proabortion, right, says, activists, group, antiabortion, life, clinic, women]|
+
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic_analysis.png" alt="Topic Analysis" width="500" />
 
 ### Comment Data
 
