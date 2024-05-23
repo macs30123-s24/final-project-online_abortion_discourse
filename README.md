@@ -125,6 +125,10 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 
 #### Temporal Analysis
 
+I also performed Latent Dirichlet Allocation on the comment corpus. PySpark was instrumental in being able to do this. By utilizing PySpark, I was able to run through the dataset of approximately 140,000 comments upwards of 200 times (to get the results to stabilize) in a matter of seconds. This would have taken a much longer time using traditional methods.
+
+I also took the Latent Dirichlet Allocation a step further, and analyzed the activity of each topic over time, once again using the power of PySpark's distributed processing.
+
 **Topic 2 Keywords: states, state, law, right, government, laws, court, roe, rights, issue**
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic_2.png" alt="Temporal Analysis (Topic 2)" width="700" />
@@ -142,4 +146,5 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic11.png" alt="Temporal Analysis (Topic 11)" width="700" />
 
 *Note: The term "link" was used during regex to replace links being shared. This indicates that many links are being shared within this topic.
+
 
