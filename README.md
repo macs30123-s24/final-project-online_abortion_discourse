@@ -91,6 +91,8 @@ For an analysis of the comments, I used Yake Keyword Extraction and continued th
 
 #### Yake Keyword Extraction 
 
+I used Yake Keyword Extraction to discern the common messages or themes throughout the corpus. Interestingly, there was a shift in 2022 where the majority of top comments were pro-choice adjacent comments. This was a stark contrast to the previous years.
+
 <div style="text-align: center;">
     <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="700" />
 </div>
