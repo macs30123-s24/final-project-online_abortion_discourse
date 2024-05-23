@@ -80,7 +80,7 @@ I used Word Clouds to visualize commonalities between submission titles, analyzi
 
 ### Comment Data
 
-Due to the substantial size of the comment data, which consisted of a 2GB ZST file, I opted to utilize PySpark for the extraction process, due to its parallelization and efficiency. As the file was much too large to open on my local machine, I uploaded the file to an S3 bucket, where I could access it within my JupyterHub on an EMR cluster.
+Due to the substantial size of the comment data, which consisted of a 2GB ZST file, I opted to utilize PySpark for the extraction process, due to its parallelization and efficiency. As the file was much too large to open on my local machine, I uploaded the file to an S3 bucket, where I could access it within my JupyterHub on an EMR cluster. This extraction was by far the most difficult part of this project.
 
 After reading in the file as text data, I defined a schema and used PySpark’s from_json() function to parse the large-scale data. Following this, I matched this resulting data frame on ‘IDs’ with the ‘IDs’ mentioned in the submission section, resulting in a dataset of 206,756 comments and their corresponding data. Lastly, I wrote this dataset into a Parquet file and stored it in an S3 bucket for later use.
 
@@ -154,5 +154,7 @@ Topic 11 once again suggests a shift away from an overwhelming pro-life rhetoric
 
 *Note: The term "link" was used during regex to replace links being shared. This indicates that many links are being shared within this topic.
 ** The complete visualizations for every analysis/year are available within the PySpark notebooks, I just chose the most interesting or representative ones to display here
+
+
 
 
