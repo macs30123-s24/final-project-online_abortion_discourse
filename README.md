@@ -87,6 +87,8 @@ Following the cleaning process, I again utilized PySpark to conduct a data analy
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="700" />
 
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.41%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="800" />
+
 
 
 
