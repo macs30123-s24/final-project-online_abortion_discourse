@@ -85,7 +85,8 @@ The utilization of PySpark was crucial for both the extraction and the cleaning 
 
 Following the cleaning process, I again utilized PySpark to conduct a data analysis. This time, I used Yake Keyword Extraction as well as continued my use of LDA and Bigram. Additionally, I performed a temporal topic analysis of the topics over time.
 
-<img src="(https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png)" alt="Top Posts of 2016 with YAKE extraction" width="700" />
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/Screenshot%202024-05-23%20at%208.07.12%E2%80%AFAM.png" alt="Top Posts of 2016 with YAKE extraction" width="700" />
+
 
 
 
