@@ -155,6 +155,19 @@ Topic 11 once again suggests a shift away from an overwhelming pro-life rhetoric
 *Note: The term "link" was used during regex to replace links being shared. This indicates that many links are being shared within this topic.
 ** The complete visualizations for every analysis/year are available within the PySpark notebooks, I just chose the most interesting or representative ones to display here
 
+## Limitations
 
+Although I conducted a comprehensive analysis, this project is not without limitations. First, the data collection relied on a third party, meaning that there was no way for me to fully verify its completeness. Although the creator intended to capture the full history of the Subreddit, it is possible that some data is missing. 
+
+Second, I only allowed for submissions and their respective comments with the word ‘abortion’ in the title. To have a more complete analysis, next time I will allow for other keywords in the abortion argument such as ‘Pro-Life’, ‘Pro-Choice’, ‘Roe v Wade’, ‘Dobbs v Jackson’, ext. Broadening the scope of submission titles and keywords will allow for a much more comprehensive analysis and understanding.
+
+Further, although LDA offered a general overview of themes, the model, with its bag-of-words method, likely struggled to capture the complexity within the text data, primarily in longer-form comments. To address this, I plan to explore the use of sentence embeddings and transformers in future research. 
+
+Lastly, although I conducted a thorough cleaning of both submissions and comments, the volume (of comments in particular) was far too large to ensure complete accuracy. Irrelevant data may be still present within the corpus.
+
+## Conclusions 
+Overall, the project showcases the power and effectiveness of using PySpark for large-scale data analysis. As mentioned several times, the majority of this project would have not been possible without the capabilities of parallel processing and distribution granted by PySpark and the features within it. 
+
+Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of both these subreddits. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
 
 
