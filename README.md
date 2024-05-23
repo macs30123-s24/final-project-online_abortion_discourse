@@ -182,6 +182,8 @@ Throughout this project, I have become increasingly comfortable with PySpark, an
 
 - State bans on abortion throughout pregnancy. (2024, May 2). *Guttmacher Institute*. [https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans](https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans)
 
+- Spark NLP - installation. (2023, May 10). https://sparknlp.org/docs/en/install
+    
 - Watchful1. (n.d). Subreddit comments/submissions 2005-06 to 2023-12. [https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10](https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10)
 
 - Watchful1. (n.d.). PushshiftDumps/scripts/single_file.py at master · Watchful1/PushshiftDumps. *GitHub*. [https://github.com/Watchful1/PushshiftDumps/blob/master/scripts/single_file.py](https://github.com/Watchful1/PushshiftDumps/blob/master/scripts/single_file.py)
