@@ -91,6 +91,8 @@ Following the cleaning process, I again utilized PySpark to conduct a data analy
 
 ## Top Bigrams by Year
 
+<font size="2">
+  
 Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in 2020 | Top Bigrams in 2022 |
 |----------------------|----------------------|----------------------|----------------------|----------------------|
 | planned parenthood   | human life           | birth control       | birth control       | supreme court       |
@@ -102,7 +104,8 @@ Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in
 | abortion clinics     | human beings         | death penalty       | dont think          | federal government |
 | right life           | roe wade             | unborn child        | supreme court       | get abortion        |
 | gay marriage         | planned parenthood   | catholic church     | pro life            | sounds like         |
-| late term            | pro life            | life begins         | get pregnant        |
+| late term            | pro life            | life begins         | get pregnant        | get pregnant         |
 
 
+</font>
 
