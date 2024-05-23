@@ -52,23 +52,23 @@ After extracting the relevant posts from the dataset, I amassed a total of 10,37
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2013.png" alt="Word Cloud 2013" width="300"/>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2013.png" alt="Word Cloud 2013" width="400"/>
     <p>2013</p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2016.png" alt="Word Cloud 2016" width="300"/>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2016.png" alt="Word Cloud 2016" width="400"/>
     <p>2016</p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2018.png" alt="Word Cloud 2018" width="300"/>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2018.png" alt="Word Cloud 2018" width="400"/>
     <p>2018</p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2020.png" alt="Word Cloud 2020" width="300"/>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2020.png" alt="Word Cloud 2020" width="400"/>
     <p>2020</p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2022.png" alt="Word Cloud 2022" width="300"/>
+    <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2022.png" alt="Word Cloud 2022" width="400"/>
     <p>2022</p>
   </div>
 </div>
