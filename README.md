@@ -31,9 +31,7 @@ Following changes to the Reddit API in 2023, and the subsequent deprecation/inac
 
 Because the submission dataset was a relatively modest size (64 MB ZST, 1 million data points), I was able to use Google Colab to extract any submission that had the word ‘abortion’ in the title. My decision to use Colab for the smaller of the two files mainly stemmed from the fact that I lacked any prior experience working with ZST files. I thought that it would be better to familiarize myself with what the dataset contained before jumping into PySpark. However, I learned later that the two environments were significantly different, and that this approach ultimately presented more challenges than necessary.
 
-![Percentage of Posts With Abortion in The Title](https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/posts_about_abortion.png)
-
-<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/posts_about_abortion.png" alt="Percentage of Posts With Abortion in The Title" width="500" />
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/posts_about_abortion.png" alt="Percentage of Posts With Abortion in The Title" width="700" />
 
 After extracting the relevant posts from the dataset, I amassed a total of 10,372 submission posts. Despite the relatively small size, I still utilized the power of PySpark to perform data cleaning, Latent Dirichlet Allocation (LDA), bigram extraction, the creation of word clouds, and ultimately, to gather the ‘IDs’ of each submission. These ‘IDs’ played a crucial role in ensuring the accuracy of the extraction of corresponding comments.
 
@@ -52,7 +50,7 @@ After extracting the relevant posts from the dataset, I amassed a total of 10,37
 | 8     | [life, us, dems, gets, term, late, american, fight, obamacare, amendment]               |
 | 9     | [prolife, proabortion, right, says, activists, group, antiabortion, life, clinic, women]|
 
-![Overall Proportions of Post Topics within the Dataset](https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/post_prop.png)
+<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic_analysis.png" alt="Topic Analysis" width="500" />
 
 ### Comment Data
 
