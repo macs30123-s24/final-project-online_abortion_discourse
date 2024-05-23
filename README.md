@@ -91,18 +91,18 @@ Following the cleaning process, I again utilized PySpark to conduct a data analy
 
 ## Top Bigrams by Year
 
-|            | Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in 2020 | Top Bigrams in 2022 |
-|------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-| planned parenthood  | planned parenthood  | human life           | birth control       | birth control       | supreme court       |
-| birth control        | birth control        | birth control        | human life          | human life          | birth control       |
-| human life           | human life           | supreme court        | right life          | planned parenthood  | roe wade            |
-| human dna            | human dna            | pro life             | roe wade            | dont want           | year old            |
-| undocumented immi...| undocumented immi...| right life           | planned parenthood | pro choice          | human life          |
-| take care            | take care            | unborn child         | life begins        | roe wade            | rape incest         |
-| abortion clinics     | abortion clinics     | human beings         | death penalty       | dont think          | federal government |
-| right life           | right life           | roe wade             | unborn child        | supreme court       | get abortion        |
-| gay marriage         | gay marriage         | planned parenthood   | catholic church     | pro life            | sounds like         |
-| abortion murder      | abortion murder      | late term            | pro life            | life begins         | get pregnant        |
+Top Bigrams in 2014 | Top Bigrams in 2016 | Top Bigrams in 2018 | Top Bigrams in 2020 | Top Bigrams in 2022 |
+|----------------------|----------------------|----------------------|----------------------|----------------------|
+| planned parenthood   | human life           | birth control       | birth control       | supreme court       |
+| birth control        | birth control        | human life          | human life          | birth control       |
+| human life           | supreme court        | right life          | planned parenthood  | roe wade            |
+| human dna            | pro life             | roe wade            | dont want           | year old            |
+| undocumented immi... | right life           | planned parenthood  | pro choice          | human life          |
+| take care            | unborn child         | life begins        | roe wade            | rape incest         |
+| abortion clinics     | human beings         | death penalty       | dont think          | federal government |
+| right life           | roe wade             | unborn child        | supreme court       | get abortion        |
+| gay marriage         | planned parenthood   | catholic church     | pro life            | sounds like         |
+| late term            | pro life            | life begins         | get pregnant        |
 
 
 
