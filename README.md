@@ -51,10 +51,10 @@ After extracting the relevant posts from the dataset, I amassed a total of 10,37
 | 9     | [prolife, proabortion, right, says, activists, group, antiabortion, life, clinic, women]|
 
 
-<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2013.png" alt="Word Cloud 2013" width="500"/>
-<img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2016.png" alt="Word Cloud 2016" width="500"/>
+### Word Clouds
 
-    
+I used Word Clouds to visualize commonalities between submission titles, analyzing them by year to possibly identify and major shifts in discourse. As illustrated in the word clouds, the major changes revolve around the key political figures of each year. This indicates that the submissions were largely politically oriented, which interestingly enough, is not a trend that the comments to these submissions seemed to follow.
+
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
     <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/wc_2013.png" alt="Word Cloud 2013" width="500"/>
