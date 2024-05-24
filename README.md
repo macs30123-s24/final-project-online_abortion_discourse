@@ -157,7 +157,7 @@ Topic 11 once again suggests a shift away from an overwhelming pro-life rhetoric
 
 ## Limitations
 
-Although I conducted a comprehensive analysis, this project is not without limitations. First, the data collection relied on a third party, meaning that there was no way for me to fully verify its completeness. Although the creator intended to capture the full history of the Subreddit, it is possible that some data is missing. 
+Although I conducted a comprehensive analysis, this project is not without limitations. First, the data collection relied on a third party, meaning that there was no way for me to fully verify its completeness. Although the creator intended to capture the full history of the Subreddit, some data may be missing. 
 
 Second, I only allowed for submissions and their respective comments with the word ‘abortion’ in the title. To have a more complete analysis, next time I will allow for other keywords in the abortion argument such as ‘Pro-Life’, ‘Pro-Choice’, ‘Roe v Wade’, ‘Dobbs v Jackson’, ext. Broadening the scope of submission titles and keywords will allow for a much more comprehensive analysis and understanding.
 
@@ -168,7 +168,9 @@ Lastly, although I conducted a thorough cleaning of both submissions and comment
 ## Conclusion
 Overall, the project showcases the power and effectiveness of using PySpark for large-scale data analysis. As mentioned several times, the majority of this project would have not been possible without the capabilities of parallel processing and distribution granted by PySpark and the features within it. 
 
-Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of both these subreddits. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
+Through this analysis, I have observed frequent shifts in abortion discourse on an annual basis, which appears to be related to changes in significant political figures and events. However, a more noteworthy trend appeared within the bigram and temporal topic analysis. These results suggest a slight shift away from a previously overwhelming 'Pro-Life' rhetoric. Although it is important to emphasize that these results warrant further investigation before drawing any conclusions, these findings offer valuable insights into the potential evolution of abortion discourse and attitudes.
+
+Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of this Subreddit, and the discourse within it. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
 
 ## Navigating this Repo
 
