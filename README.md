@@ -16,7 +16,7 @@ Specifically, I will be examining discourse surrounding abortion within the r/Co
 2. Preliminary research (limited to 1000 posts via the Reddit API) revealed significant activity surrounding abortion discourse within the Subreddit.
 3. The persistent reaction and stances of Conservative politicians regarding abortion underscore the significance of the topic within the party, often becoming a focal point of their political identity.
 
-This emphasis placed on abortion within Conservative circles makes r/Conservative a pivotal place for my intended research.
+This emphasis placed on abortion within Conservative circles makes r/Conservative a pivotal place for my intended research, and to investigate my primary research question of if/how abortion attitudes and discourse have evolved over time.
 
 By utilizing PySpark, I can efficiently extract, clean, and analyze large-scale datasets, like the complete history of Subreddits. This would be impractical with more traditional methods, such as using CSV files and Pandas. By leveraging PySpark's features, such as the distribution of data and workloads across multiple nodes, I will be parallelizing almost every aspect of my work, making the processing both scalable and feasible.
 
