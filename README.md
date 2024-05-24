@@ -85,7 +85,7 @@ After reading the file into my environment as text data, I defined a schema and 
 
 Like the submission data, I thoroughly cleaned the dataset using PySpark’s parallelization. This involved removing deleted comments, as well as comments that were too short, cleaning the textual data, and converting the time information from Unix timestamps (‘1640635686’) to readable representations (‘2022-08-24 15:45:39’). Lastly, I matched any 'null' time values (mistakes from the original file) with the corresponding ‘submission’ time (for estimations). This gave me a final dataset size of 142,924 comments
 
-The utilization of PySpark was crucial for the extraction and the cleaning process due to the large dataset size, as it allowed for efficient parallel processing and handling of the data. The complexity and scale of the task underscored the importance of PySpark in achieving timely and accurate results, which would have been challenging, if not impossible (especially with the extraction) with traditional methods.
+The utilization of PySpark was crucial for the extraction and the cleaning process due to the large dataset size, as it allowed for efficient parallel processing and handling of the data. The complexity and scale of the task underscored the importance of PySpark in achieving timely and accurate results, which would have been challenging, if not impossible with traditional methods.
 
 After cleaning, I again used PySpark to conduct a data analysis. Each Machine Learning/NLP task employed a pipeline to leverage scalability between the two datasets, work distribution, and consistency. A simplified example of one of my ML Pipelines:
 
