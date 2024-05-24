@@ -133,7 +133,7 @@ I also performed Latent Dirichlet Allocation on the comment corpus. By using PyS
 
 I also took the Latent Dirichlet Allocation a step further, and analyzed the activity of each topic over time, once again using the power of PySpark's distributed processing.
 
-Topic 11 once again suggests a shift away from an overwhelming pro-life rhetoric, as observed in the earlier analysis.
+Topic 11 suggests a shift from overwhelming pro-life rhetoric, as observed in the earlier analysis.
 
 **Topic 2 Keywords: states, state, law, right, government, laws, court, roe, rights, issue**
 
@@ -166,9 +166,9 @@ Further, although LDA offered a general overview of themes, the model, with its 
 Lastly, although I conducted a thorough cleaning of both submissions and comments, the volume (of comments in particular) was far too large to ensure complete accuracy. Irrelevant data may be still present within the corpus.
 
 ## Conclusion
-Overall, the project showcases the power and effectiveness of using PySpark for large-scale data analysis. As mentioned several times, the majority of this project would have not been possible without the capabilities of parallel processing and distribution granted by PySpark and the features within it. 
+Overall, the project showcases the power and effectiveness of using PySpark for large-scale data analysis. As mentioned several times, the majority of this project would not have been possible without the capabilities of parallel processing and distribution granted by PySpark and the features within it. 
 
-Through this analysis, I have observed frequent shifts in abortion discourse on an annual basis, which appears to be related to changes in significant political figures and events. However, a more noteworthy trend appeared within the bigram and temporal topic analysis. These results suggest a slight shift away from a previously overwhelming 'Pro-Life' rhetoric. Although it is important to emphasize that these results warrant further investigation before drawing any conclusions, these findings offer valuable insights into the potential evolution of abortion discourse and attitudes.
+Through this analysis, I have observed frequent shifts in abortion discourse on an annual basis, which appears to be related to changes in significant political figures and events. However, a more noteworthy trend appeared within the bigram and temporal topic analysis. These results suggest a slight shift from a previously overwhelming 'Pro-Life' rhetoric. Although it is important to emphasize that these results warrant further investigation before drawing any conclusions, these findings offer valuable insights into the potential evolution of abortion discourse and attitudes.
 
 Throughout this project, I have become increasingly comfortable with PySpark, and I am excited about continuing this research and delving deeper into the evolution of abortion attitudes and discourse. Additionally, I plan to expand my research beyond the Conservative Subreddit and include other communities with ideological differences. By doing so, I hope to broaden our understanding of online abortion discourse and contribute valuable insights to the ongoing conversations surrounding abortion attitudes and the implications they have on our society.
 
@@ -178,7 +178,7 @@ Throughout this project, I have become increasingly comfortable with PySpark, an
 
 - **zst_submission_extract.ipynb**: Code for extracting submissions from a ZST file.
   
-- **fix_csv.ipynb**: Code for fixing CSV files to accurately transfer to PySpark DataFrame.
+- **fix_csv.ipynb**: Code for fixing CSV files to ensure an accurate transfer to PySpark DataFrame.
   
 - **eda_lda_posts.ipynb**: Cleaning, EDA, and NLP of submission data.
   
