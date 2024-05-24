@@ -191,6 +191,7 @@ Throughout this project, I have become increasingly comfortable with PySpark, an
 - **EDA_comments.ipynb**: Cleaning and EDA of extracted comments.
   
 - **NLP_comments_clean.ipynb**: Analysis and NLP of comments.
+- **requirements.txt**: list of requirements
 
 ### Emr_Scripts Folder:
 - **emrlaunch.py**: Used to launch cluster, install more packages
