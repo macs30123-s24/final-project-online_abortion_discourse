@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Abortion remains a contentious and deeply entrenched debate in America and American politics. Despite its apparent legal solidity following the landmark case Roe v. Wade in 1973, which guaranteed the constitutional right to privacy – including the right to an abortion – this framework was dramatically altered in the unprecedented ruling of Dobbs v. Jackson Women’s Health Organization in 2022. This decision effectively overturned Roe v. Wade and returned the power of regulating abortion back to the states.
+Abortion remains a contentious and deeply entrenched debate in America and American politics. Despite its apparent legal solidity following the landmark case Roe v. Wade in 1973, which guaranteed the constitutional right to privacy (including the right to an abortion), this framework was dramatically altered in the unprecedented ruling of Dobbs v. Jackson Women’s Health Organization in 2022. This decision effectively overturned Roe v. Wade and returned the power of regulating abortion back to the states.
 
-Following the Dobbs ruling, the legality of abortion in America has become fragmented, with over fourteen states enacting all-out abortion bans and an additional seven implementing laws severely restricting abortion ([State Bans on Abortion Throughout Pregnancy, 2024](https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans)). Furthermore, the issue has emerged as a focal point in the upcoming 2024 election, where abortion is expected to be a battleground issue. In over eleven states, voters will weigh in on addressing measures surrounding abortion ([Mulvihill and Kruesi, 2024](https://apnews.com/article/abortion-ballot-amendment-ban-protection-states-2024-052ff9846f8416efb725240af22b92ec)). Against this unparalleled legal upheaval, political turmoil, and the continued erosion of established rights, research into the discourse surrounding the topic becomes even more imperative.
+Following the Dobbs ruling, the legality of abortion in America has become fragmented, with over fourteen states enacting all-out abortion bans and an additional seven implementing laws severely restricting abortion ([State Bans on Abortion Throughout Pregnancy, 2024](https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans)). Furthermore, the issue has emerged as a focal point in the upcoming 2024 election, where abortion is expected to be a battleground issue. In over eleven states, voters will weigh in on addressing measures surrounding abortion ([Mulvihill and Kruesi, 2024](https://apnews.com/article/abortion-ballot-amendment-ban-protection-states-2024-052ff9846f8416efb725240af22b92ec)). Against this unparalleled legal upheaval, political turmoil, and the continued erosion of established rights, research into the discourse and attitudes surrounding the topic becomes even more imperative.
 
 
 ## Objective
@@ -14,7 +14,7 @@ In light of this climate, my final project presented here aims to conduct a larg
 Specifically, I will be examining discourse surrounding abortion within the r/Conservative Subreddit. I have chosen this Subreddit for several reasons:
 
 1. The Subreddit has over 1 million users, making it a prominent platform within Reddit.
-2. Preliminary research (limited to 1000 posts via the Reddit API) revealed significant activity surrounding abortion discourse within the Subreddit.
+2. Preliminary research (limited to 1000 posts via the Reddit API) revealed significant activity surrounding abortion within the Subreddit.
 3. The persistent reaction and stances of Conservative politicians regarding abortion underscore the significance of the topic within the party, often becoming a focal point of their political identity.
 
 This emphasis placed on abortion within Conservative circles makes r/Conservative a pivotal place for my intended research, and to investigate my primary research question of whether abortion attitudes and discourse have evolved.
@@ -30,7 +30,7 @@ Following changes to the Reddit API in 2023, and the subsequent deprecation/inac
 
 ### Submission Data
 
-Because the submission dataset was a relatively modest size (64 MB ZST, 1 million data points), I was able to use Google Colab to extract any submission that had the word ‘abortion’ in the title. My decision to use Colab for the smaller of the two files mainly stemmed from the fact that I lacked any prior experience working with ZST files. I thought that it would be better to familiarize myself with what the dataset contained before jumping into PySpark. However, I learned later that the two environments were significantly different, and that this approach ultimately presented more challenges than necessary.
+Because the submission dataset was a relatively modest size (64 MB ZST, approximately 1 million data points), I was able to use Google Colab to extract any submission that had the word ‘abortion’ in the title. My decision to use Colab for the smaller of the two files mainly stemmed from the fact that I lacked any prior experience working with ZST files. I thought that it would be better to familiarize myself with what the dataset contained before jumping into PySpark. However, I learned later that the two environments were significantly different, and that this approach ultimately presented more challenges than necessary.
 
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/posts_about_abortion.png" alt="Percentage of Posts With Abortion in The Title" width="600" />
 
@@ -54,7 +54,7 @@ After extracting the relevant posts from the dataset, I amassed a total of 10,37
 
 ### Word Clouds
 
-I used Word Clouds to visualize commonalities between submission titles, analyzing them by year to possibly identify and major shifts in discourse. As illustrated in the word clouds, the major changes revolve around the key political figures of each year. This indicates that the submissions were largely politically oriented, which interestingly enough, is not a trend that the comments to these submissions seemed to follow.
+I also used Word Clouds to visualize commonalities between submission titles, analyzing them by year to possibly identify major shifts in discourse. As illustrated in the word clouds, the major changes revolve around the key political figures of each year. This indicates that the submissions were largely politically oriented, which interestingly enough, is not a trend that the comments to these submissions seemed to follow.
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
@@ -154,6 +154,7 @@ Topic 11 once again suggests a shift away from an overwhelming pro-life rhetoric
 <img src="https://github.com/macs30123-s24/final-project-online_abortion_discourse/blob/main/visualizations/topic11.png" alt="Temporal Analysis (Topic 11)" width="700" />
 
 *Note: The term "link" was used during regex to replace links being shared. This indicates that many links are being shared within this topic.
+<br>
 ** The complete visualizations for every analysis/year are available within the PySpark notebooks, I just chose the most interesting or representative ones to display here
 
 ## Limitations
@@ -171,7 +172,7 @@ Overall, the project showcases the power and effectiveness of using PySpark for 
 
 Through this analysis, I have observed frequent shifts in abortion discourse on an annual basis, which appears to be related to changes in significant political figures and events. However, a more noteworthy trend appeared within the bigram and temporal topic analysis. These results suggest a slight shift away from a previously overwhelming 'Pro-Life' rhetoric. Although it is important to emphasize that these results warrant further investigation before drawing any conclusions, these findings offer valuable insights into the potential evolution of abortion discourse and attitudes.
 
-Throughout this project, I have become increasingly comfortable with PySpark, and I am excited about continuing this study and diving deeper into looking at the evolution of abortion attitudes. Additionally, I plan to expand my research beyond the Conservative Subreddit and include other communities with ideological differences. By doing so, I hope to broaden our understanding of online abortion discourse and contribute valuable insights to the ongoing conversations surrounding abortion attitudes and the implications they have on our society.
+Throughout this project, I have become increasingly comfortable with PySpark, and I am excited about continuing this research and delving deeper into the evolution of abortion attitudes and discourse. Additionally, I plan to expand my research beyond the Conservative Subreddit and include other communities with ideological differences. By doing so, I hope to broaden our understanding of online abortion discourse and contribute valuable insights to the ongoing conversations surrounding abortion attitudes and the implications they have on our society.
 
 ## Navigating this Repo
 
