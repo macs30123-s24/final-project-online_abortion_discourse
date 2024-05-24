@@ -171,7 +171,7 @@ Overall, the project showcases the power and effectiveness of using PySpark for 
 
 Through this analysis, I have observed frequent shifts in abortion discourse on an annual basis, which appears to be related to changes in significant political figures and events. However, a more noteworthy trend appeared within the bigram and temporal topic analysis. These results suggest a slight shift away from a previously overwhelming 'Pro-Life' rhetoric. Although it is important to emphasize that these results warrant further investigation before drawing any conclusions, these findings offer valuable insights into the potential evolution of abortion discourse and attitudes.
 
-Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of this Subreddit, and the discourse within it. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
+Throughout this project, I have become increasingly comfortable with PySpark, and I am excited about continuing this study and diving deeper into looking at the evolution of abortion attitudes. Additionally, I plan to expand my research beyond the Conservative Subreddit and include other communities with ideological differences. By doing so, I hope to broaden our understanding of online abortion discourse and contribute valuable insights to the ongoing conversations surrounding abortion attitudes and the implications they have on our society.
 
 ## Navigating this Repo
 
