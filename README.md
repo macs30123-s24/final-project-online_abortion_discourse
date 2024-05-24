@@ -79,7 +79,7 @@ I also used Word Clouds to visualize commonalities between submission titles, an
 
 ### Comment Data
 
-Due to the substantial size of the ZST file comment data, over 2GB, I opted to utilize PySpark for the extraction process, due to its parallelization and efficiency. Since the file was too large to open on my local machine, I uploaded it to an S3 bucket, making it accessible within my JupyterHub on an EMR cluster. Extracting the comments was by far the most difficult part of this project/
+Due to the substantial size of the ZST file comment data, over 2GB, I opted to utilize PySpark for the extraction process, due to its parallelization and efficiency. Since the file was too large to open on my local machine, I uploaded it to an S3 bucket, making it accessible within my JupyterHub on an EMR cluster. Extracting the comments was by far the most difficult part of this project.
 
 After reading the file into my environment as text data, I defined a schema and used PySpark’s from_json() function to parse the large-scale data. Following this, I matched this resulting data frame on ‘IDs’ with the ‘IDs’ mentioned in the submission section, resulting in a dataset of 206,756 comments and their corresponding data. Lastly, I wrote this dataset into a Parquet file and stored it in an S3 bucket for later use.
 
