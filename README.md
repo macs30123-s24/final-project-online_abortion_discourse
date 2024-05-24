@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Abortion remains a contentious and deeply entrenched debate in America and American politics. Despite its apparent legal solidity following the landmark case **Roe v. Wade** in 1973, which guaranteed the constitutional right to privacy – including the right to an abortion – this framework was dramatically altered in the unprecedented ruling of **Dobbs v. Jackson Women’s Health Organization** in 2022. This decision effectively overturned Roe v. Wade and returned the power of regulating abortion back to the states.
+Abortion remains a contentious and deeply entrenched debate in America and American politics. Despite its apparent legal solidity following the landmark case Roe v. Wade in 1973, which guaranteed the constitutional right to privacy – including the right to an abortion – this framework was dramatically altered in the unprecedented ruling of Dobbs v. Jackson Women’s Health Organization in 2022. This decision effectively overturned Roe v. Wade and returned the power of regulating abortion back to the states.
 
 Following the Dobbs ruling, the legality of abortion in America has become fragmented, with over fourteen states enacting all-out abortion bans and an additional seven implementing laws severely restricting abortion ([State Bans on Abortion Throughout Pregnancy, 2024](https://www.guttmacher.org/state-policy/explore/state-policies-abortion-bans)). Furthermore, the issue has emerged as a focal point in the upcoming 2024 election, where abortion is expected to be a battleground issue. In over eleven states, voters will weigh in on addressing measures surrounding abortion ([Mulvihill and Kruesi, 2024](https://apnews.com/article/abortion-ballot-amendment-ban-protection-states-2024-052ff9846f8416efb725240af22b92ec)). Against this unparalleled legal upheaval, political turmoil, and the continued erosion of established rights, research into the discourse surrounding the topic becomes even more imperative.
 
@@ -10,15 +10,16 @@ Following the Dobbs ruling, the legality of abortion in America has become fragm
 ## Objective
 
 In light of this climate, my final project presented here aims to conduct a large-scale analysis using Reddit, a social media platform known for its unique features like pseudonymity and topical division of ‘Subreddits.’ These attributes not only distinguish Reddit as a platform but present a compelling opportunity for research, potentially fostering more candid and open discussions.
+
 Specifically, I will be examining discourse surrounding abortion within the r/Conservative Subreddit. I have chosen this Subreddit for several reasons:
 
 1. The Subreddit has over 1 million users, making it a prominent platform within Reddit.
 2. Preliminary research (limited to 1000 posts via the Reddit API) revealed significant activity surrounding abortion discourse within the Subreddit.
 3. The persistent reaction and stances of Conservative politicians regarding abortion underscore the significance of the topic within the party, often becoming a focal point of their political identity.
 
-This emphasis placed on abortion within Conservative circles makes r/Conservative a pivotal place for my intended research.
+This emphasis placed on abortion within Conservative circles makes r/Conservative a pivotal place for my intended research, and to investigate my primary research question of whether abortion attitudes and discourse have evolved.
 
-By utilizing PySpark, I can efficiently extract, clean, and analyze large-scale datasets, like the complete history of Subreddits. This would be impractical with more traditional methods, such as using CSV files and Pandas. By leveraging PySpark's features, such as the distribution of data and workloads across multiple nodes, I will be parallelizing almost every aspect of my work, making the processing both scalable and feasible.
+By utilizing PySpark, I can efficiently extract, clean, and analyze large-scale datasets, like the complete history of Subreddits. This would be impractical with more traditional methods, such as using CSV files and Pandas. By leveraging its features, such as the distribution of data and workloads across multiple nodes, I will be parallelizing almost every aspect of my work, making the processing both scalable and feasible.
 
 
 ## Data Collection and Methods
@@ -80,7 +81,7 @@ I used Word Clouds to visualize commonalities between submission titles, analyzi
 
 ### Comment Data
 
-Due to the substantial size of the comment data, which consisted of a 2GB ZST file, I opted to utilize PySpark for the extraction process, due to its parallelization and efficiency. As the file was much too large to open on my local machine, I uploaded the file to an S3 bucket, where I could access it within my JupyterHub on an EMR cluster. This extraction was by far the most difficult part of this project.
+Due to the substantial size of the comment data, which consisted of a 2GB ZST file, I opted to utilize PySpark for the extraction process, due to its parallelization and efficiency. As the file was much too large to open on my local machine, I uploaded the file to an S3 bucket, where I could access it within my JupyterHub on an EMR cluster. This extraction of comments was by far the most difficult part of this project.
 
 After reading in the file as text data, I defined a schema and used PySpark’s from_json() function to parse the large-scale data. Following this, I matched this resulting data frame on ‘IDs’ with the ‘IDs’ mentioned in the submission section, resulting in a dataset of 206,756 comments and their corresponding data. Lastly, I wrote this dataset into a Parquet file and stored it in an S3 bucket for later use.
 
@@ -157,7 +158,7 @@ Topic 11 once again suggests a shift away from an overwhelming pro-life rhetoric
 
 ## Limitations
 
-Although I conducted a comprehensive analysis, this project is not without limitations. First, the data collection relied on a third party, meaning that there was no way for me to fully verify its completeness. Although the creator intended to capture the full history of the Subreddit, it is possible that some data is missing. 
+Although I conducted a comprehensive analysis, this project is not without limitations. First, the data collection relied on a third party, meaning that there was no way for me to fully verify its completeness. Although the creator intended to capture the full history of the Subreddit, some data may be missing. 
 
 Second, I only allowed for submissions and their respective comments with the word ‘abortion’ in the title. To have a more complete analysis, next time I will allow for other keywords in the abortion argument such as ‘Pro-Life’, ‘Pro-Choice’, ‘Roe v Wade’, ‘Dobbs v Jackson’, ext. Broadening the scope of submission titles and keywords will allow for a much more comprehensive analysis and understanding.
 
@@ -165,10 +166,39 @@ Further, although LDA offered a general overview of themes, the model, with its 
 
 Lastly, although I conducted a thorough cleaning of both submissions and comments, the volume (of comments in particular) was far too large to ensure complete accuracy. Irrelevant data may be still present within the corpus.
 
-## Conclusions 
+## Conclusion
 Overall, the project showcases the power and effectiveness of using PySpark for large-scale data analysis. As mentioned several times, the majority of this project would have not been possible without the capabilities of parallel processing and distribution granted by PySpark and the features within it. 
 
-Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of both these subreddits. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
+Through this analysis, I have observed frequent shifts in abortion discourse on an annual basis, which appears to be related to changes in significant political figures and events. However, a more noteworthy trend appeared within the bigram and temporal topic analysis. These results suggest a slight shift away from a previously overwhelming 'Pro-Life' rhetoric. Although it is important to emphasize that these results warrant further investigation before drawing any conclusions, these findings offer valuable insights into the potential evolution of abortion discourse and attitudes.
+
+Throughout this project, I have become increasingly comfortable with PySpark, and I am excited to continue with a deeper analysis and understanding of this Subreddit, and the discourse within it. Further, I expect to branch out to other ideologically different Subreddits to get a broader understanding of Abortion Discourse on Reddit.
+
+## Navigating this Repo
+
+### Code Folder:
+
+- **zst_submission_extract.ipynb**: Code for extracting submissions from a ZST file.
+  
+- **fix_csv.ipynb**: Code for fixing CSV files to accurately transfer to PySpark DataFrame.
+  
+- **eda_lda_posts.ipynb**: Cleaning, EDA, and NLP of submission data.
+  
+- **fixed_wordclouds.ipynb**: Word clouds of submission titles.
+  
+- **zst_comment_extract.ipynb**: Code for extracting comments from a 2GB ZST file.
+  
+- **EDA_comments.ipynb**: Cleaning and EDA of extracted comments.
+  
+- **NLP_comments_clean.ipynb**: Analysis and NLP of comments.
+
+### Emr_Scripts Folder:
+- **emrlaunch.py**: Used to launch cluster, install more packages
+- **setup.sh**: Used to setup necessary packages on the cluster (code from Spark NLP - Installation, 2023)
+- **sparknlp-config.json**: Used to configure NLP (code from Spark NLP - Installation, 2023)
+
+### visualizations Folder:
+- Contains PNG images of plots extracted from notebooks for this readme.
+
 
 ## Work and Resources Cited
 
